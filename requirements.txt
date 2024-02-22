@@ -7,4 +7,4 @@ SimpleITK
 opencv-python
 mayavi
 tqdm
-skimage
+scikit-image
