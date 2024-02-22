@@ -1,0 +1,9 @@
+numpy
+matplotlib
+pydicom
+Pillow
+scipy
+SimpleITK
+opencv-python
+mayavi
+tqdm
