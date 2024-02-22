@@ -1,43 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>3D MRI Slices Stacker and Interpolator</title>
-</head>
-<body>
-    <h1>3D MRI Slices Stacker and Interpolator</h1>
-    <p>This program processes MRI slices to create a 3D visualization of a human head, offering functionalities for rotation, dragging, and zooming within the generated image.</p>
+3D MRI Slices Stacker and Interpolator
 
-    <h2>How to Use</h2>
-    <ol>
-        <li><strong>Clone the Repository:</strong>
-            <p>Obtain a copy of the repository by cloning it to your local machine.</p>
-        </li>
-        <li><strong>Navigate to the Repository:</strong>
-            <p>Open your terminal and navigate to the repository's directory.</p>
-        </li>
-        <li><strong>Install Dependencies:</strong>
-            <p>Run the following command to install the required Python packages:</p>
-            <pre>pip install -r requirements.txt</pre>
-        </li>
-        <li><strong>Run the Program:</strong>
-            <p>Execute the program with the command:</p>
-            <pre>python 3d.py</pre>
-            <p>A new window will open, allowing you to interact with the 3D image of the human head.</p>
-        </li>
-    </ol>
+This program processes MRI slices to create a 3D visualization of a human head, offering functionalities for rotation, dragging, and zooming within the generated image.
+How to Use
 
-    <h2>Dataset Citation</h2>
-    <p>The MRI slices used in this project were sourced from the DICOM library, specifically "The MN dataset". This dataset is made available under the CC0 license, as per the following details:</p>
-    <ul>
-        <li><strong>Name:</strong> The MN dataset</li>
-        <li><strong>Authors:</strong> Martin Norgaard</li>
-        <li><strong>License:</strong> CC0</li>
-        <li><strong>BIDS Version:</strong> 1.6.0</li>
-        <li><strong>Acknowledgements:</strong> Special thanks to Martin Norgaard for the dataset provision.</li>
-        <li><strong>How to Acknowledge:</strong> Please acknowledge the dataset by citing Martin Norgaard.</li>
-        <li><strong>Funding:</strong> The dataset was developed with a funding of 0$.</li>
-        <li><strong>Dataset DOI:</strong> <a href="https://doi.org/10.18112/openneuro.ds004650.v1.0.2">doi:10.18112/openneuro.ds004650.v1.0.2</a></li>
-    </ul>
-</body>
-</html>
+    Clone the Repository: Obtain a copy of the repository by cloning it to your local machine.
+
+    Navigate to the Repository: Open your terminal and navigate to the repository's directory.
+
+    Install Dependencies: Run the following command to install the required Python packages:
+
+pip install -r requirements.txt
+
+Run the Program: Execute the program with the command:
+
+    python 3d.py
+
+    A new window will open, allowing you to interact with the 3D image of the human head.
+
+Dataset Citation
+
+The MRI slices used in this project were sourced from the DICOM library, specifically "The MN dataset". This dataset is made available under the CC0 license, as per the following details:
+
+    Name: The MN dataset
+    Authors: Martin Norgaard
+    License: CC0
+    BIDS Version: 1.6.0
+    Acknowledgements: Special thanks to Martin Norgaard for the dataset provision.
+    How to Acknowledge: Please acknowledge the dataset by citing Martin Norgaard.
+    Funding: The dataset was developed with a funding of 0$.
+    Dataset DOI: doi:10.18112/openneuro.ds004650.v1.0.2
